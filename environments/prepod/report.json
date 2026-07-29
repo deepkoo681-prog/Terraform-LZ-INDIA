@@ -1,0 +1,42 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 1,
+  "EndLine": 1,
+  "StartColumn": 1,
+  "EndColumn": 40,
+  "Match": "aws_access_key  = \"qkaidjeudwiqjd123445\"",
+  "Secret": "qkaidjeudwiqjd123445",
+  "File": "test.txt",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.6841838,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "test.txt:generic-api-key:1"
+ },
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 82,
+  "EndLine": 82,
+  "StartColumn": 6,
+  "EndColumn": 45,
+  "Match": "aws_access_key  = \"qkaidjeudwiqjd123445\"",
+  "Secret": "qkaidjeudwiqjd123445",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.6841838,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "terraform.tfvars:generic-api-key:82"
+ }
+]
