@@ -7,6 +7,10 @@ rgs = {
     name     = "rg-normal"
     location = "centralindia"
   }
+   rg3 = {
+    name     = "rg-normal3"
+    location = "centralindia"
+  }
 }
 
 vnet = {
